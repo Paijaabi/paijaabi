@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pai ja Abi: Koduabi ja Seltskonnateenused</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f8fafc; /* Light blue-gray background */
+        }
+        /* Custom scrollbar for a smoother look */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #e2e8f0; /* Light gray track */
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #94a3b8; /* Medium gray thumb */
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #64748b; /* Darker gray on hover */
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-blue-400 to-purple-500 text-white p-6 shadow-lg rounded-b-lg">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="text-center md:text-left mb-4 md:mb-0">
+                <h1 class="text-4xl font-bold rounded-lg p-2 inline-block bg-white bg-opacity-20">Pai ja Abi</h1>
+                <p class="text-xl mt-2">Südamega vanavanematele</p>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#services" class="hover:text-blue-200 transition duration-300 text-lg">Teenused</a></li>
+                    <li><a href="#prices" class="hover:text-blue-200 transition duration-300 text-lg">Hinnakiri</a></li>
+                    <li><a href="#how-visit-looks" class="hover:text-blue-200 transition duration-300 text-lg">Külastus</a></li>
+                    <li><a href="#about-me" class="hover:text-blue-200 transition duration-300 text-lg">Minust</a></li>
+                    <li><a href="#why-us" class="hover:text-blue-200 transition duration-300 text-lg">Miks valida meid?</a></li>
+                    <li><a href="#contact" class="hover:text-blue-200 transition duration-300 text-lg">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-16 md:py-24 bg-white text-center shadow-md rounded-lg mx-4 mt-6">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-blue-600 mb-6 leading-tight">
+                SÜDAMLIK ABIKÄSI, <br class="hidden md:inline">JUSTKUI OMA LAPSELAPSELT
+            </h2>
+            <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+                Pai ja Abi pakub südamlikku ja isikupärast tuge igapäevaelus, tuues teie koju rõõmu, mugavust ja meelerahu. Pakume eakatele **Tartus ja lähiümbruses** vajalikku abi igapäevatoimingutes, sooja seltskonda ja hoolitsust, mis on peaaegu nagu oma lapselapselt.
+            </p>
+            <a href="#contact" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-full text-xl shadow-lg transition duration-300 transform hover:scale-105">
+                Võtke meiega ühendust juba täna!
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 md:py-20 bg-gray-50 mx-4 mt-6 rounded-lg shadow-md">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl md:text-4xl font-bold text-center text-blue-700 mb-12">Meie Teenused</h3>
+            <div class="grid grid-cols-1 gap-8">
+                <!-- Service Card 1: Hoolitsus ja Seltskond -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border border-blue-200 transform transition duration-300 hover:scale-105">
+                    <div class="flex items-center mb-4">
+                        <svg class="w-10 h-10 text-blue-500 mr-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+                        </svg>
+                        <h4 class="text-2xl font-semibold text-gray-900">Abikäsi ja Soe Seltskond</h4>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Pakume kaastundlikku tuge igapäevaelus, tagades mugavuse ja meelerahu. Meie teenused hõlmavad:
+                    </p>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Abi kergete majapidamistöödega</li>
+                        <li>Abi asjaajamise ja ostlemisega</li>
+                        <li>Toetust toiduvalmistamisel</li>
+                        <li>Sõbralikud külastused ja kaasahaaravad vestlused</li>
+                        <li>Ettelugemine ja ühised tegevused</li>
+                        <li>Kerge liikumise julgustamine</li>
+                        <li>Lihtsad iluprotseduurid (nt. käte/jalgade kreemitamine, küünte hooldus; pediküür lisatasu eest)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hinnakiri Sektsioon -->
+    <section id="prices" class="py-16 md:py-20 bg-white mx-4 mt-6 rounded-lg shadow-md">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-3xl md:text-4xl font-bold text-blue-700 mb-12">Hinnakiri</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- Ühekordne külastus -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md border border-purple-200 transform transition duration-300 hover:scale-105">
+                    <h4 class="text-2xl font-semibold text-gray-900 mb-4">Ühekordne Külastus</h4>
+                    <p class="text-gray-700 text-lg mb-2">
+                        Kestus: **min 2 tundi**
+                    </p>
+                    <p class="text-blue-600 text-4xl font-bold mb-4">
+                        20 EUR / tund
+                    </p>
+                    <p class="text-gray-600">
+                        Ideaalne juhuslikuks abiks ja seltskonnaks.
+                    </p>
+                </div>
+                <!-- Korduv külastus pakett -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md border border-blue-200 transform transition duration-300 hover:scale-105">
+                    <h4 class="text-2xl font-semibold text-gray-900 mb-4">Regulaarne Pakett</h4>
+                    <p class="text-gray-700 text-lg mb-2">
+                        **3 korda nädalas** (iga külastus 1,5-2 tundi)
+                    </p>
+                    <p class="text-blue-600 text-4xl font-bold mb-4">
+                        240 EUR / kuu
+                    </p>
+                    <p class="text-gray-600">
+                        Pidev tugi ja seltskond igapäevaelu rõõmuks.
+                    </p>
+                </div>
+                <!-- Pediküür -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md border border-green-200 transform transition duration-300 hover:scale-105">
+                    <h4 class="text-2xl font-semibold text-gray-900 mb-4">Pediküür</h4>
+                    <p class="text-gray-700 text-lg mb-2">
+                        Jalgade hooldus ja mugavus.
+                    </p>
+                    <p class="text-blue-600 text-4xl font-bold mb-4">
+                        30 EUR + tunnihind
+                    </p>
+                    <p class="text-gray-600">
+                        Lisateenus olemasolevale külastusele.
+                    </p>
+                </div>
+                <!-- Maniküür -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md border border-yellow-200 transform transition duration-300 hover:scale-105">
+                    <h4 class="text-2xl font-semibold text-gray-900 mb-4">Maniküür</h4>
+                    <p class="text-gray-700 text-lg mb-2">
+                        Käte ja küünte hoolitsus.
+                    </p>
+                    <p class="text-blue-600 text-4xl font-bold mb-4">
+                        15 EUR + tunnihind
+                    </p>
+                    <p class="text-gray-600">
+                        Lisateenus olemasolevale külastusele.
+                    </p>
+                </div>
+            </div>
+            <p class="text-gray-600 mt-8 text-md">
+                Täpsema pakkumise saamiseks võtke meiega ühendust! <br>
+                <a href="mailto:paijaabi@gmail.com" class="text-blue-600 hover:underline">paijaabi@gmail.com</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Kuidas kodukülastus välja näeb Sektsioon -->
+    <section id="how-visit-looks" class="py-16 md:py-20 bg-gray-50 mx-4 mt-6 rounded-lg shadow-md">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl md:text-4xl font-bold text-center text-blue-700 mb-12">Kuidas kodukülastus välja näeb?</h3>
+            <p class="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto mb-8 text-center">
+                Iga Pai ja Abi külastus on kohandatud vastavalt kokkuleppele, keskendudes alati vanavanema heaolu ja mugavuse tagamisele. Olgu selleks siis lihtne seltskonnaga aja veetmine või praktiline abi igapäevatoimingutes, oleme siin, et pakkuda just seda tuge, mida vajatakse.
+            </p>
+
+            <h4 class="text-2xl font-semibold text-gray-900 mb-6 text-center">Meie teenuste kontrollnimekiri:</h4>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Checklist Item 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                    <h5 class="text-xl font-semibold text-gray-900 mb-2">Seltskond ja Vestlused</h5>
+                    <p class="text-gray-700">
+                        Veeta aega koos vesteldes, kuulates lugusid, meenutades või lihtsalt vaikselt kohvi nautides. Loome hubase ja usaldusväärse õhkkonna.
+                    </p>
+                </div>
+                <!-- Checklist Item 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                    <h5 class="text-xl font-semibold text-gray-900 mb-2">Ühised Tegevused</h5>
+                    <p class="text-gray-700">
+                        Koos raamatute lugemine, lauamängude mängimine, vanade fotode vaatamine või kergete käsitööde tegemine, mis pakuvad rõõmu ja ajaviidet.
+                    </p>
+                </div>
+                <!-- Checklist Item 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                    <h5 class="text-xl font-semibold text-gray-900 mb-2">Väljas Käimised ja Jalutuskäigud</h5>
+                    <p class="text-gray-700">
+                        Aitame riietuda ja pakume tuge kergeteks jalutuskäikudeks värskes õhus lähedalasuvas pargis või ümber kodu.
+                    </p>
+                </div>
+                <!-- Checklist Item 4 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                    <h5 class="text-xl font-semibold text-gray-900 mb-2">Abi Majapidamistöödega</h5>
+                    <p class="text-gray-700">
+                        Kergete koristustööde tegemine, pesu sorteerimine või kokkuvoltimine, lillede kastmine – kõik, mis aitab kodu korras hoida.
+                    </p>
+                </div>
+                <!-- Checklist Item 5 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                    <h5 class="text-xl font-semibold text-gray-900 mb-2">Ostlemine ja Asjaajamine</h5>
+                    <p class="text-gray-700">
+                        Aitame koostada ostunimekirju, käime poes või apteegis, toome kauba koju ja aitame selle paigutada.
+                    </p>
+                </div>
+                <!-- Checklist Item 6 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                    <h5 class="text-xl font-semibold text-gray-900 mb-2">Toiduvalmistamise Tugi</h5>
+                    <p class="text-gray-700">
+                        Aitame kergete einete valmistamisel vastavalt vanavanema soovidele ja vajadustele.
+                    </p>
+                </div>
+                <!-- Checklist Item 7 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                    <h5 class="text-xl font-semibold text-gray-900 mb-2">Abi Hügieenitoimingutega</h5>
+                    <p class="text-gray-700">
+                        Pakume diskreetset abi isikliku hügieeni toimingutes, et tagada mugavus ja väärikus.
+                    </p>
+                </div>
+                <!-- Checklist Item 8 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                    <h5 class="text-xl font-semibold text-gray-900 mb-2">Lihtsad Iluprotseduurid (pediküür lisatasu eest)</h5>
+                    <p class="text-gray-700">
+                        Käte ja jalgade kreemitamine, küünte viilimine ja hooldus – et vanavanem tunneks end värske ja hoolitsetuna.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about-me" class="py-16 md:py-20 bg-white mx-4 mt-6 rounded-lg shadow-md">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-3xl md:text-4xl font-bold text-blue-700 mb-12">Minust</h3>
+            <div class="max-w-3xl mx-auto text-lg text-gray-700 leading-relaxed">
+                <p class="mb-4">
+                    Minu südames on suur soov aidata ja pakkuda tuge eakatele, eriti kuna minu oma pere elab minust kaugel. Pai ja Abi sündis soovist luua see soe ja toetav side, mis on nii oluline igaühe elus.
+                </p>
+                <p class="mb-4">
+                    Minu taust on rikas kogemustest inimeste toetamisel. Olen lõpetanud teoloogia bakalaureusekraadiga hingehoidjana ning mul on 15-aastane kogemus haavatavates olukordades inimeste toetamisel. Olen töötanud hooldajana ja need kogemused on andnud mulle sügava arusaama eakate vajadustest ja soovist tunda end väärtustatuna.
+                </p>
+                <p class="mb-4">
+                    Kolme lapse emana tean, kui oluline on kannatlikkus, empaatia ja oskus luua rõõmus ja hooliv keskkond. Olen loomult rõõmsameelne ja elurõõmus inimene, kes usub, et iga päev pakub võimaluse jagada naeratusi ja luua ilusaid mälestusi. Minu jaoks on kõige tähtsam eaka inimese heaolu ja mugavus ning pakkuda neile tunnet, et neil on keegi, kes hoolib – peaaegu nagu oma lapselaps.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="py-16 md:py-20 bg-gray-50 mx-4 mt-6 rounded-lg shadow-md">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-3xl md:text-4xl font-bold text-blue-700 mb-12">Miks valida Pai ja Abi?</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Benefit 1 -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md border border-gray-200">
+                    <svg class="w-12 h-12 text-green-500 mx-auto mb-4" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-2">Kogenud ja Usaldusväärne</h4>
+                    <p class="text-gray-700">Olles taustaga hooldustöös ja kirega teisi aidata, toon igale külastusele kaasa usaldusväärse ja kaastundliku kohaloleku.</p>
+                </div>
+                <!-- Benefit 2 -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md border border-gray-200">
+                    <svg class="w-12 h-12 text-yellow-500 mx-auto mb-4" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1.586l1.293-1.293a1 1 0 111.414 1.414l-2 2a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L9 4.586V3a1 1 0 011-1zm-7 7a1 1 0 011 1v1.586l1.293-1.293a1 1 0 111.414 1.414l-2 2a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L3 10.586V10a1 1 0 011-1zm14 0a1 1 0 011 1v1.586l1.293-1.293a1 1 0 111.414 1.414l-2 2a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L17 10.586V10a1 1 0 011-1z" clip-rule="evenodd"></path>
+                    </svg>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-2">Mugavus ja Lihtsus</h4>
+                    <p class="text-gray-700">Kõik teenused pakutakse teie kodus, tuttavas ja mugavas keskkonnas, vältides reisistressi.</p>
+                </div>
+                <!-- Benefit 3 -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md border border-gray-200">
+                    <svg class="w-12 h-12 text-red-500 mx-auto mb-4" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
+                    </svg>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-2">Terviklik Heaolu</h4>
+                    <p class="text-gray-700">Ühendame praktilise abi isikliku hoolitsusega, et parandada nii füüsilist kui ka emotsionaalset heaolu.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 md:py-20 bg-gradient-to-r from-blue-400 to-purple-500 text-white mx-4 mt-6 mb-6 rounded-lg shadow-lg">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-3xl md:text-4xl font-bold mb-8">Valmis Pai ja Abiks?</h3>
+            <p class="text-xl mb-8">
+                Arutame, kuidas saame pakkuda isikupärast tuge ja hoolitsust teile või teie lähedasele.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-8">
+                <div class="bg-white text-blue-700 p-6 rounded-xl shadow-md flex items-center transform transition duration-300 hover:scale-105">
+                    <svg class="w-8 h-8 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.774a11.037 11.037 0 006.103 6.103l.774-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+                    </svg>
+                    <a href="tel:+37258375031" class="text-2xl font-semibold">+372 58375031</a>
+                </div>
+            </div>
+            <p class="mt-10 text-lg">
+                <!-- Removed "Ootame teiega ühenduse võtmist!" -->
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-gray-300 p-6 text-center rounded-t-lg">
+        <div class="container mx-auto">
+            <p>&copy; 2025 Pai ja Abi. Kõik õigused kaitstud.</p>
+            <p class="mt-2 text-sm">Pakkudes kaastundlikku hoolitsust ja toetavaid teenuseid **Tartus**.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
